@@ -697,7 +697,9 @@ input:focus-visible{
 .product-item{
   background-color: #fff;
   /* padding: 10px; */
-  margin: 10px 2px;
+  /* margin: 10px 2px; */
+  border-radius: 11px;
+  height: 100%;
 }
 
 .product-content{
@@ -713,7 +715,7 @@ input:focus-visible{
 
 .product-item-price{
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .product-buy-btn{
@@ -1003,4 +1005,177 @@ input:focus-visible{
 
 .loadingio-spinner-eclipse-2wq14xvvzww{
   transform: scale(0.8);
+}
+
+.swiper-l-banner img{
+  width: 100%;
+}
+
+
+.gradientDiv{
+	/* 	width: 300px;
+	height: 300px; */
+	padding: 5px;
+	background: linear-gradient(to right, red, yellow);
+	/* margin: 30px; */
+	box-shadow: 0px 0px 30px red,
+				0px 0px 10px yellow;
+	animation: animate 3s infinite;
+	overflow: hidden;
+	border-radius: 18px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes animate{
+	0%{
+		background: linear-gradient(to right, red, yellow);
+		box-shadow: 0px 0px 30px red,
+					0px 0px 10px yellow;
+	}
+
+	50%{
+		background: linear-gradient(to right, yellow, red );
+		box-shadow: 0px 0px 30px yellow,
+				0px 0px 10px red;
+	}
+
+	100%{
+		background: linear-gradient(to right, red, yellow);
+		box-shadow: 0px 0px 30px red,
+					0px 0px 10px yellow;
+	}
+}
+
+.gradientDiv--1{
+  box-shadow: 0px 0px 30px #510b3deb,
+				0px 0px 10px #F97AB8;
+  animation: animate--1 3s infinite;
+}
+
+@keyframes animate--1{
+	0%{
+		background: linear-gradient(to right, #510b3deb, #F97AB8);
+		box-shadow: 0px 0px 30px #510b3deb,
+					0px 0px 10px #F97AB8;
+	}
+
+	50%{
+		background: linear-gradient(to right, #F97AB8, #510b3deb );
+		box-shadow: 0px 0px 30px #F97AB8,
+				0px 0px 10px #510b3deb;
+	}
+
+	100%{
+		background: linear-gradient(to right, #510b3deb, #F97AB8);
+		box-shadow: 0px 0px 30px #510b3deb,
+					0px 0px 10px #F97AB8;
+	}
+}
+
+.gradientDiv--2{
+  box-shadow: 0px 0px 30px #121F48,
+				0px 0px 10px #62B7FF;
+  animation: animate--2 3s infinite;
+}
+
+@keyframes animate--2{
+	0%{
+		background: linear-gradient(to right, #121F48, #62B7FF);
+		box-shadow: 0px 0px 30px #121F48,
+					0px 0px 10px #62B7FF;
+	}
+
+	50%{
+		background: linear-gradient(to right, #62B7FF, #121F48 );
+		box-shadow: 0px 0px 30px #62B7FF,
+				0px 0px 10px #121F48;
+	}
+
+	100%{
+		background: linear-gradient(to right, #121F48, #62B7FF);
+		box-shadow: 0px 0px 30px #121F48,
+					0px 0px 10px #62B7FF;
+	}
+}
+
+.gradientDiv--3{
+  box-shadow: 0px 0px 30px #121F48,
+				0px 0px 10px #62B7FF;
+  animation: animate--3 3s infinite;
+}
+
+@keyframes animate--3{
+	0%{
+		background: linear-gradient(to right, #8C00A2, #C551D3);
+		box-shadow: 0px 0px 30px #8C00A2,
+					0px 0px 10px #C551D3;
+	}
+
+	50%{
+		background: linear-gradient(to right, #C551D3, #8C00A2 );
+		box-shadow: 0px 0px 30px #C551D3,
+				0px 0px 10px #8C00A2;
+	}
+
+	100%{
+		background: linear-gradient(to right, #8C00A2, #C551D3);
+		box-shadow: 0px 0px 30px #8C00A2,
+					0px 0px 10px #C551D3;
+	}
+}
+
+.gradientDiv--4{
+  box-shadow: 0px 0px 30px #121F48,
+				0px 0px 10px #62B7FF;
+  animation: animate--4 3s infinite;
+}
+
+@keyframes animate--4{
+	0%{
+		background: linear-gradient(to right, #63CBED, #76DBF8);
+		box-shadow: 0px 0px 30px #63CBED,
+					0px 0px 10px #76DBF8;
+	}
+
+	50%{
+		background: linear-gradient(to right, #76DBF8, #63CBED );
+		box-shadow: 0px 0px 30px #76DBF8,
+				0px 0px 10px #63CBED;
+	}
+
+	100%{
+		background: linear-gradient(to right, #63CBED, #76DBF8);
+		box-shadow: 0px 0px 30px #63CBED,
+					0px 0px 10px #76DBF8;
+	}
+}
+
+.innerDiv{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, #595656, #333);
+	border-radius: 16px;
+}
+
+img.product-item-img.w-100 {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.inner_div{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	transform: translate(10%,10%);
+	color: #fff;
+	font-family: sans-serif;
+	text-align: left;
+	font-size: 23px;
+}
+
+.member-item:hover{
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.98);
 }
